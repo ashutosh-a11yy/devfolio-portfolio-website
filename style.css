@@ -1,0 +1,77 @@
+body {
+margin: 0;
+font-family: Arial;
+background: #0f172a;
+color: white;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+padding: 15px 40px;
+background: #020617;
+}
+
+nav ul {
+display: flex;
+gap: 20px;
+list-style: none;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+.home {
+text-align: center;
+padding: 120px 20px;
+}
+
+.home h1 {
+font-size: 40px;
+}
+
+button {
+padding: 10px 20px;
+background: cyan;
+border: none;
+cursor: pointer;
+}
+
+section {
+padding: 60px 40px;
+}
+nav a:hover {
+color: cyan;
+}
+
+button:hover {
+background: white;
+color: black;
+transition: 0.3s;
+}
+
+section {
+border-bottom: 1px solid #333;
+}
+#skills ul {
+display: flex;
+gap: 20px;
+}
+
+#skills li {
+background: cyan;
+color: black;
+padding: 10px;
+border-radius: 5px;
+}
+nav a:hover {
+color: cyan;
+}
+
+button:hover {
+background: white;
+color: black;
+transition: 0.3s;
+}
